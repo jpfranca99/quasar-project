@@ -6,6 +6,7 @@
       :todos="todos"
       :meta="meta"
     ></example-component>
+<BtnSave rota="addIndex"/>
   </q-page>
 </template>
 
@@ -13,6 +14,7 @@
 import { ref } from 'vue';
 import { Todo, Meta } from 'components/models';
 import ExampleComponent from 'components/ExampleComponent.vue';
+import BtnSave from 'src/components/BtnSave.vue';
 
 defineOptions({
   name: 'IndexPage'
